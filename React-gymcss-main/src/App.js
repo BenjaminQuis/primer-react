@@ -6,8 +6,11 @@ import Productos from './components/Productos';
 import Acercade from './components/Acercade';
 import Class from './components/Class';
 import Horario from './components/Horario';
+import Inscripcion from './components/Inscripcion';
 import Contact from './components/Contact';
 import Piedepagina from './components/Piedepagina';
+
+
 import './App.css';
 
 const App = () => {
@@ -20,6 +23,7 @@ const App = () => {
       <Class />
       <Productos />
       <Horario />
+      <Inscripcion/>
       <Contact />
       <Piedepagina />
     </div>

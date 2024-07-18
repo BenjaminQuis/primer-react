@@ -25,7 +25,7 @@ const Contact = () => {
         <p data-aos="fade-up" data-aos-delay="800"><i className="fa fa-map-marker mr-1"></i> El Alto - Collpani, Bolivia</p>
         
         <div className="google-map" data-aos="fade-up" data-aos-delay="900">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d503.5957082694738!2d-68.22036228434395!3d-16.52785845126923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1720639111423!5m2!1ses-419!2sbo" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d402.0505487734838!2d-68.22029812296222!3d-16.527562371450422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1721313893934!5m2!1ses!2sbo" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@
     --color-dark-xx: #1f232b;
     --color-light: #ffffff;
     --color-grey: #f5f6f8;
+    --color-red: #f13a11;
 }
 
 body {
@@ -14,20 +15,23 @@ body {
     color: var(--color-light);
     letter-spacing: .05rem;
 }
-
-.bg-light {
-    background-color: var(--color-light)!important;
+#titulo{
+    color:#f13a11;    
 }
 
-.bg-dark {
-    background-color: var(--color-dark)!important;
+.bgLight {
+    background-color: var(--color-light) !important;
 }
 
-.p-6 {
+.bgDark {
+    background-color: var(--color-dark) !important;
+}
+
+.p6 {
     padding: 4rem 7rem;
 }
 
-.contact-box {
+.contactBox {
     padding: 3rem;
 }
 
@@ -38,45 +42,44 @@ body {
     min-width: 10rem;
 }
 
-.btn-outline-dark {
+.btnOutlineDark {
     border: 2px solid var(--color-dark-xx);
 }
 
-
-.form-control {
+.formControl {
     background-color: var(--color-dark-xx);
     border: 2px solid var(--color-dark-xx);
     border-radius: .2rem;
     padding: 1.5rem 1rem;
 }
 
-.register-bg {
+.registerBg {
     background-image: url('/public/images/class/imagenfor.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
 
-.testiomonial {
-    bottom: 10px
+.testimonial {
+    bottom: 10px;
 }
 
 @media (max-width: 575.98px) {
-    .p-6 {
+    .p6 {
         padding: 2rem;
     }
 
-    .contact-box {
+    .contactBox {
         padding: 0;
     }
 
-    .width-100 {
+    .width100 {
         width: 100%;
     }
 }
 
-@media (max-width: 1200px) { 
-    .register-bg {
+@media (max-width: 1200px) {
+    .registerBg {
         min-height: 50vh;
     }
 }

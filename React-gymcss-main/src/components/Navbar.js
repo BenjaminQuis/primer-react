@@ -17,11 +17,9 @@ const Navbar = () => {
 
             <li className="nav-item"><a href="#schedule" className="nav-link">Horarios</a></li>
             <li className="nav-item"><a href="#contact" className="nav-link">Contactos</a></li>
+            <li className="nav-item"><a href="#inscripcion" className="nav-link">Inscripcion</a></li>
           </ul>
-          <a href="http://127.0.0.1:5501/src/components/inscripcion.html"target="_blank">
-            <button class="rojo-button">INSCRIBIRSE</button>
-          </a>
-        </div>
+      </div>
       </div>
     </nav>
   );
